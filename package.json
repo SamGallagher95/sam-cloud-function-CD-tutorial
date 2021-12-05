@@ -1,0 +1,27 @@
+{
+  "name": "sam-cloud-function-cd-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamGallagher95/sam-cloud-function-CD-tutorial.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SamGallagher95/sam-cloud-function-CD-tutorial/issues"
+  },
+  "homepage": "https://github.com/SamGallagher95/sam-cloud-function-CD-tutorial#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "typescript": "^4.5.2"
+  }
+}
