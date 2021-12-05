@@ -4,5 +4,9 @@ import { Request, Response } from 'express';
 export const main = async (req: Request, res: Response): Promise<void> => {
   console.log(req);
 
-  res.send('Hello from my main function.');
+  res.json({
+    id: 1,
+    name: 'Sam',
+    msg: 'Hello!',
+  });
 };
